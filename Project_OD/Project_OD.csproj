@@ -40,7 +40,14 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="OD.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
